@@ -1,7 +1,7 @@
 var simplemaps_namap_mapdata={
   main_settings: {
    //General settings
-    width: "responsive", //'700' or 'responsive'
+    width: "700", //'700' or 'responsive'
     background_color: "#FFFFFF",
     background_transparent: "yes",
     border_color: "#ffffff",
@@ -397,22 +397,7 @@ var simplemaps_namap_mapdata={
       url: "https://fumehoodtestingnetwork.com/testers/yukon"
     }
   },
-  locations: {
-    "0": {
-      name: "New York",
-      lat: "40.71",
-      lng: "-74.0059731"
-    },
-    "1": {
-      name: "Anchorage",
-      lat: 61.2180556,
-      lng: -149.9002778
-    },
-    "2": {
-      name: "Honolulu",
-      lat: 21.3069444,
-      lng: -157.8583333
-    }
+  locations: {   
   },
   labels: {
     NH: {
