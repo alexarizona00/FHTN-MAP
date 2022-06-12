@@ -1,5 +1,6 @@
 var simplemaps_namap_mapdata={
   main_settings: {
+   //General settings
     width: "600", //'700' or 'responsive'
     background_color: "#FFFFFF",
     background_transparent: "yes",
@@ -64,11 +65,10 @@ var simplemaps_namap_mapdata={
     images_directory: "default",
     fade_time: 0.1,
     import_labels: "no",
-    link_text: "View Testers In This State",
+    link_text: "View Website",
     state_image_url: "",
     state_image_position: "",
-    location_image_url: "",
-    border_hover_color: "#3af8fa"
+    location_image_url: ""
   },
   state_specific: {
     AB: {
@@ -397,7 +397,23 @@ var simplemaps_namap_mapdata={
       url: "https://fumehoodtestingnetwork.com/testers/yukon"
     }
   },
-  locations: {},
+  locations: {
+    "0": {
+      name: "New York",
+      lat: "40.71",
+      lng: "-74.0059731"
+    },
+    "1": {
+      name: "Anchorage",
+      lat: 61.2180556,
+      lng: -149.9002778
+    },
+    "2": {
+      name: "Honolulu",
+      lat: 21.3069444,
+      lng: -157.8583333
+    }
+  },
   labels: {
     NH: {
       parent_id: "NH",
